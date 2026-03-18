@@ -1,0 +1,34 @@
+[
+  {
+    "username": "marc",
+    "email": "marc@test.com",
+    "password": "password123",
+    "applications": [
+      {
+        "company": "Google",
+        "role": "Software Engineer",
+        "status": "Applied",
+        "notes": "Applied via careers page"
+      },
+      {
+        "company": "Amazon",
+        "role": "Backend Developer",
+        "status": "Interview",
+        "notes": "Phone screen scheduled"
+      }
+    ]
+  },
+  {
+    "username": "john",
+    "email": "john@test.com",
+    "password": "password123",
+    "applications": [
+      {
+        "company": "Microsoft",
+        "role": "Frontend Developer",
+        "status": "Rejected",
+        "notes": "Rejected after final round"
+      }
+    ]
+  }
+]
