@@ -1,0 +1,33 @@
+{
+  "name": "week-21-22",
+  "version": "1.0.0",
+  "description": "Project 3 for bootcamp",
+  "keywords": [
+    "graphql",
+    "react",
+    "mongoose",
+    "apollo"
+  ],
+  "homepage": "https://github.com/MarcFGomes/week21-22-Project#readme",
+  "bugs": {
+    "url": "https://github.com/MarcFGomes/week21-22-Project/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarcFGomes/week21-22-Project.git"
+  },
+  "license": "MIT",
+  "author": "Marc Gomes",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "dev": "concurrently \"cd server && npm run watch\" \"cd client && npm run dev\"",
+    "install-all": "cd server && npm i && cd ../client && npm i",
+    "build": "cd client && npm run build",
+    "render-build": "npm install && npm run build"
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}
