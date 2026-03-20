@@ -15,6 +15,7 @@
   "type": "commonjs",
   "dependencies": {
     "@apollo/server": "^4.7.1",
+    "bcrypt": "^6.0.0",
     "dotenv": "^17.3.1",
     "graphql": "^16.13.1",
     "jsonwebtoken": "^9.0.3",
