@@ -1,6 +1,6 @@
 [
   {
-    "username": "marc",
+    "username": "Marc",
     "email": "marc@test.com",
     "password": "password123",
     "applications": [
@@ -19,7 +19,7 @@
     ]
   },
   {
-    "username": "john",
+    "username": "John",
     "email": "john@test.com",
     "password": "password123",
     "applications": [
